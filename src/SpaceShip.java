@@ -10,40 +10,13 @@ public class SpaceShip {
     public int direccionX;
     public int direccionY;
 
-    public SpaceShip(String nombre, int matriculaGalactica, float aceleracion, float velocidadX, float velocidadY, float coordenadaX, float coordenadaY, int direccionX, int direccionY) {
-        this.nombre = nombre;
-        this.matriculaGalactica = matriculaGalactica;
-        this.aceleracion = aceleracion;
+    public SpaceShip(float velocidadX, float velocidadY, float coordenadaX, float coordenadaY, int direccionX, int direccionY) {
         this.velocidadX = velocidadX;
         this.velocidadY = velocidadY;
         this.coordenadaX = coordenadaX;
         this.coordenadaY = coordenadaY;
         this.direccionX = direccionX;
         this.direccionY = direccionY;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getMatriculaGalactica() {
-        return matriculaGalactica;
-    }
-
-    public void setMatriculaGalactica(int matriculaGalactica) {
-        this.matriculaGalactica = matriculaGalactica;
-    }
-
-    public float getAceleracion() {
-        return aceleracion;
-    }
-
-    public void setAceleracion(float aceleracion) {
-        this.aceleracion = aceleracion;
     }
 
     public float getVelocidadX() {
@@ -93,4 +66,7 @@ public class SpaceShip {
     public void setDireccionY(int direccionY) {
         this.direccionY = direccionY;
     }
+
+
+
 }
