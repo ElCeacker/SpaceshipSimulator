@@ -3,12 +3,12 @@ public class SpaceShip {
     public String nombre;
     public int matriculaGalactica;
     public float aceleracion;
-    public float velocidadX;
-    public float velocidadY;
-    public int coordenadaX;
-    public int coordenadaY;
-    public int direccionX;
-    public int direccionY;
+    public float velocidadX = 0;
+    public float velocidadY = 0;
+    public int coordenadaX = 0;
+    public int coordenadaY = 0;
+    public int direccionX = 0;
+    public int direccionY = 0;
 
     public SpaceShip(String nombre, int matriculaGalactica, float aceleracion) {
         this.nombre = nombre;
