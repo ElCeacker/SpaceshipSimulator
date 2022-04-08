@@ -39,4 +39,52 @@ public class SpaceShip {
     public void setAceleracion(float aceleracion) {
         this.aceleracion = aceleracion;
     }
+
+    public float getVelocidadX() {
+        return velocidadX;
+    }
+
+    public void setVelocidadX(float velocidadX) {
+        this.velocidadX = velocidadX;
+    }
+
+    public float getVelocidadY() {
+        return velocidadY;
+    }
+
+    public void setVelocidadY(float velocidadY) {
+        this.velocidadY = velocidadY;
+    }
+
+    public float getCoordenadaX() {
+        return coordenadaX;
+    }
+
+    public void setCoordenadaX(int coordenadaX) {
+        this.coordenadaX = coordenadaX;
+    }
+
+    public float getCoordenadaY() {
+        return coordenadaY;
+    }
+
+    public void setCoordenadaY(int coordenadaY) {
+        this.coordenadaY = coordenadaY;
+    }
+
+    public int getDireccionX() {
+        return direccionX;
+    }
+
+    public void setDireccionX(int direccionX) {
+        this.direccionX = direccionX;
+    }
+
+    public int getDireccionY() {
+        return direccionY;
+    }
+
+    public void setDireccionY(int direccionY) {
+        this.direccionY = direccionY;
+    }
 }
