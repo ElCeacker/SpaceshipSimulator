@@ -9,5 +9,6 @@ public class Main {
         System.out.println("¿Cúal es la aceleración?");
         float aceleracion0 = teclado.nextFloat();
         SpaceShip nave = new SpaceShip ("Gabrilactus", 12345, 2.3f);
+        System.out.println(nave);
     }
 }
