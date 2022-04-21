@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SpaceShip {
 
     public String nombre;
@@ -87,4 +89,18 @@ public class SpaceShip {
     public void setDireccionY(int direccionY) {
         this.direccionY = direccionY;
     }
+
+    public void speedUp() {
+        Scanner preguntasNave = new Scanner(System.in);
+        System.out.println("¿Cuál quieres que sea la nueva velocidad?");
+        float velocidad1 = preguntasNave.nextFloat();
+        System.out.println("¿En qué posición quieres que aparezca la nave?");
+        int posicion = preguntasNave.nextInt();
+        velocidadX = velocidad1;
+        coordenadaX = posicion;
+    }
+
+
+
+
 }
